@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spine Animation Embed</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
+    <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
+
+    <style>
+        /* Essential for Behance: ensure the player fills the available iframe space */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: transparent; 
+        }
+        #player-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="player-container"></div>
+
+    <script>
+        const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/my%20character%20export/";
+        
+        new spine.SpinePlayer("player-container", {
+            jsonUrl: githubRawBaseUrl + "skeleton.json",
+            atlasUrl: githubRawBaseUrl + "skeleton.atlas",
+            
+            // Set base animation to 'walk'
+            animation: "Walk",
+            
+            // Visual Settings
+            showControls: false,          // Cleaner look for Behance
+            alpha: true,                  // Transparent background
+            backgroundColor: "#00000000",
+            fullScreenButton: true,       // Allow users to expand the view
+            
+            success: function (player) {
+                const state = player.animationState;
+
+                // Track 0 is already playing 'walk' due to the 'animation' property above.
+                // Now we layer 'flame' on Track 1 so it plays simultaneously.
+                state.setAnimation(1, "flame", true);
+            },
+            error: function (player, reason) {
+                console.error("Spine Error:", reason);
+            }
+        });
+    </script>
+</body>
+</html>
