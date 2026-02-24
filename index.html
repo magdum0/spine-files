@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spine Animation Preview</title>
+    <title>Spine Animation Full-View Preview</title>
     
     <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
     <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
@@ -14,124 +14,136 @@
             padding: 0;
             width: 100%;
             height: 100%;
-            background-color: transparent; 
+            background-color: #111;
+            font-family: Arial, sans-serif;
         }
+
         .player-wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
-            height: 100%;
-            overflow-y: auto;
+            gap: 20px;
+            padding: 20px 0;
         }
+
         .player-container {
             width: 90%;
-            height: 80vh;
+            height: 80vh; /* This defines the viewable area */
             position: relative;
-            flex-shrink: 0;
+            border-radius: 12px;
             overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
-        .player-container:nth-child(odd) {
-            background-color: #FAF3E1;
+
+        /* Essential: This makes the Spine Player canvas fill the container */
+        .spine-target {
+            width: 100%;
+            height: 100%;
         }
-        .player-container:nth-child(even) {
-            background-color: #222222;
-        }
+
+        .player-container:nth-child(odd) { background-color: #FAF3E1; }
+        .player-container:nth-child(even) { background-color: #222222; }
+
         .player-label {
             position: absolute;
-            top: 10px;
-            left: 10px;
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-family: Arial, sans-serif;
+            top: 15px;
+            left: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
             font-size: 14px;
+            font-weight: bold;
             z-index: 10;
+            pointer-events: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
     </style>
 </head>
 <body>
 
-    <div class="player-wrapper">
-        <div class="player-container">
-            <div class="player-label">Walk</div>
-            <div id="walk-player"></div>
+    <div class="player-wrapper" id="player-list">
         </div>
-        <div class="player-container">
-            <div class="player-label">Idle</div>
-            <div id="idle-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">Jump</div>
-            <div id="jump-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">Backflip</div>
-            <div id="backflip-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">HandWalk</div>
-            <div id="handwalk-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">Moonwalk</div>
-            <div id="moonwalk-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">PunchRightHook</div>
-            <div id="punchrrighthook-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">Rage</div>
-            <div id="rage-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">Rapping</div>
-            <div id="rapping-player"></div>
-        </div>
-        <div class="player-container">
-            <div class="player-label">walk_drunk</div>
-            <div id="walkdrunk-player"></div>
-        </div>
-    </div>
 
     <script>
         const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/my%20character%20export/";
         
         const animations = [
-            { id: "walk-player", animation: "Walk" },
-            { id: "idle-player", animation: "Idle" },
-            { id: "jump-player", animation: "Jump" },
-            { id: "backflip-player", animation: "Backflip" },
-            { id: "handwalk-player", animation: "HandWalk" },
-            { id: "moonwalk-player", animation: "Moonwalk" },
-            { id: "punchrrighthook-player", animation: "PunchRightHook" },
-            { id: "rage-player", animation: "Rage" },
-            { id: "rapping-player", animation: "Rapping" },
-            { id: "walkdrunk-player", animation: "walk_drunk" }
+            { name: "Walk" },
+            { name: "Idle" },
+            { name: "Jump" },
+            { name: "Backflip" },
+            { name: "HandWalk" },
+            { name: "Moonwalk" },
+            { name: "PunchRightHook" },
+            { name: "Rage" },
+            { name: "Rapping" },
+            { name: "walk_drunk" }
         ];
-        
+
+        const listContainer = document.getElementById('player-list');
+
         animations.forEach(config => {
-            new spine.SpinePlayer(config.id, {
+            // 1. Create the HTML Structure
+            const container = document.createElement('div');
+            container.className = 'player-container';
+
+            const label = document.createElement('div');
+            label.className = 'player-label';
+            label.innerText = config.name;
+
+            const playerDiv = document.createElement('div');
+            playerDiv.className = 'spine-target';
+            const uniqueId = "player-" + config.name.toLowerCase().replace(/_/g, "");
+            playerDiv.id = uniqueId;
+
+            container.appendChild(label);
+            container.appendChild(playerDiv);
+            listContainer.appendChild(container);
+
+            // 2. Initialize the Spine Player
+            new spine.SpinePlayer(uniqueId, {
                 jsonUrl: githubRawBaseUrl + "skeleton.json",
                 atlasUrl: githubRawBaseUrl + "skeleton.atlas",
+                animation: config.name,
                 
-                animation: config.animation,
-                
+                // --- ZOOM & FIT CONFIGURATION ---
                 showControls: false,
                 alpha: true,
                 backgroundColor: "#00000000",
-                fullScreenButton: true,
+                fullScreenButton: false,
                 
+                // The 'viewport' logic calculates the character's size 
+                // and zooms the camera to fit the div automatically.
+                viewport: {
+                    padLeft: "2%",   // Small padding so they don't touch the edge
+                    padRight: "2%",
+                    padTop: "2%",
+                    padBottom: "2%",
+                    debugRender: false
+                },
+                
+                // This ensures the character scales up to fill the 80vh height
+                preserveAspectRatio: true, 
+
                 success: function (player) {
                     const state = player.animationState;
-                    state.setAnimation(0, config.animation, true);
-                    // Play flame animation on Track 1
+                    
+                    // Layer 0: The primary movement
+                    state.setAnimation(0, config.name, true);
+                    
+                    // Layer 1: The flame effect
                     state.setAnimation(1, "flame", true);
+
+                    // Note: If the character still looks slightly small, 
+                    // the player automatically fits the entire "setup pose" 
+                    // bounding box. You can manually tweak player.camera.zoom 
+                    // here if needed, but 'viewport' usually handles it.
                 },
                 error: function (player, reason) {
-                    console.error("Spine Error for " + config.animation + ":", reason);
+                    console.error("Failed to load animation " + config.name + ":", reason);
                 }
             });
         });
