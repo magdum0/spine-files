@@ -77,12 +77,12 @@
     </div>
 
     <script>
-        const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/swamp%20dragon/";
+        const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/spine-files/bezzleBuff/";
 
         const animations = [
-            { name: "Bog Breaker" },
-            { name: "Primordial Roar" },
-            { name: "Verdant Cataclysm" }
+            { name: "acid attack" },
+            { name: "Attack C – Rotting Aura" },
+            { name: "The Swarm Reborn5" }
         ];
 
         const listContainer = document.getElementById('player-list');
@@ -107,8 +107,8 @@
 
             // 2. Initialize the Spine Player
             new spine.SpinePlayer(uniqueId, {
-                jsonUrl: githubRawBaseUrl + "Terraos_ske.json",
-                atlasUrl: githubRawBaseUrl + "Terraos_ske.atlas",
+                jsonUrl: githubRawBaseUrl + "Beelzebub_ske.json",
+                atlasUrl: githubRawBaseUrl + "Beelzebub_ske.atlas",
                 animation: config.name,
 
                 // --- ZOOM & FIT CONFIGURATION ---

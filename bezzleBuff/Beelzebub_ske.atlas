@@ -1,0 +1,302 @@
+Beelzebub_ske.png
+size:1635,1290
+filter:Linear,Linear
+pma:true
+scale:0.4
+Beelzebub_ske
+bounds:2,472,816,814
+offsets:0,5,819,819
+rotate:90
+Layer 10
+bounds:792,74,54,219
+rotate:90
+Layer 11
+bounds:818,481,62,236
+Layer 12
+bounds:818,719,55,190
+rotate:90
+Layer 13
+bounds:1508,12,60,56
+rotate:90
+Layer 14
+bounds:384,2,90,124
+rotate:90
+Layer 15
+bounds:743,130,308,340
+Layer 16
+bounds:2,26,444,380
+rotate:90
+Layer 17
+bounds:384,94,376,357
+rotate:90
+Layer 18
+bounds:1010,722,52,41
+rotate:90
+Layer 19
+bounds:152,6,18,36
+rotate:90
+Layer 2
+bounds:882,572,107,145
+Layer 20
+bounds:113,6,18,37
+rotate:90
+Layer 21
+bounds:1010,678,42,40
+rotate:90
+Layer 22
+bounds:2,2,22,29
+rotate:90
+Layer 23
+bounds:991,575,54,46
+Layer 24
+bounds:743,94,25,34
+Layer 25
+bounds:991,623,58,53
+Layer 26
+bounds:920,6,60,66
+Layer 27
+bounds:1018,808,23,71
+Layer 28
+bounds:1566,19,53,60
+rotate:90
+Layer 29
+bounds:33,4,20,46
+offsets:2,0,22,46
+rotate:90
+Layer 3
+bounds:510,17,185,75
+Layer 30
+bounds:856,4,68,62
+rotate:90
+Layer 31
+bounds:1013,89,33,39
+Layer 32
+bounds:81,5,19,30
+rotate:90
+Layer 33
+bounds:982,3,524,50
+Layer 4
+bounds:697,19,93,73
+Layer 5 copy
+bounds:1013,55,32,33
+rotate:90
+Layer 7
+bounds:818,841,38,198
+rotate:90
+Layer 8
+bounds:818,776,63,192
+rotate:90
+Layer 9
+bounds:792,2,62,70
+smoke2
+bounds:818,1079,217,209
+somoke2
+bounds:818,881,209,196
+v1
+bounds:1053,682,580,606
+v4
+bounds:1053,74,580,606
+
+Beelzebub_ske_2.png
+size:2036,1756
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/Beelzebub_0000_Paper
+bounds:1041,1666,88,116
+offsets:0,0,88,120
+rotate:90
+images/a fly 1
+bounds:403,19,461,368
+offsets:54,72,528,520
+images/a fly 2
+bounds:1430,78,465,366
+offsets:54,49,528,520
+images/a fly 3
+bounds:866,2,464,385
+offsets:56,55,528,520
+images/body-1
+bounds:1423,1645,133,109
+offsets:0,0,133,118
+images/body-2
+bounds:1171,970,260,240
+images/buzzeleBulbBlur
+bounds:2,120,349,399
+rotate:90
+images/collar-1
+bounds:993,1475,208,189
+images/collar-2
+bounds:1749,1387,206,236
+rotate:90
+images/crown
+bounds:1093,1242,214,218
+rotate:90
+images/flyblur
+bounds:1558,1630,152,124
+images/flyblur2
+bounds:399,1674,174,80
+images/head-1
+bounds:1872,1595,162,159
+images/head-2
+bounds:692,1042,223,220
+images/left-forearm
+bounds:1687,796,368,289
+rotate:90
+images/left-leg-1
+bounds:1433,930,252,280
+images/left-leg-2
+bounds:206,1516,150,785
+rotate:90
+images/left-leg-3
+bounds:2,813,227,770
+rotate:90
+images/left-legs
+bounds:1159,1666,88,120
+rotate:90
+images/left-legs-2
+bounds:287,1676,78,110
+rotate:90
+images/left-upper-arm
+bounds:1533,446,348,483
+rotate:90
+images/left-wing-1
+bounds:2,1688,66,137
+rotate:90
+images/left-wing-2
+bounds:759,1668,86,280
+rotate:90
+images/right-forearm
+bounds:774,631,757,297
+images/right-leg-1
+bounds:2,1314,200,870
+rotate:90
+images/right-leg-2
+bounds:494,389,240,934
+rotate:90
+images/right-leg-3
+bounds:2,1098,214,688
+rotate:90
+images/right-legs
+bounds:1281,1656,98,140
+rotate:90
+images/right-legs-2
+bounds:1712,1626,128,158
+rotate:90
+images/right-wing-1
+bounds:2,1523,202,160
+images/right-wing-2
+bounds:917,1004,236,252
+rotate:90
+images/smoke2
+bounds:874,1264,217,209
+images/somoke2
+bounds:1203,1458,209,196
+images/tenctiles2
+bounds:1313,1212,382,218
+images/tenctiles3
+bounds:1414,1432,333,192
+images/tenticle1
+bounds:1697,1166,320,219
+images/tongue-1
+bounds:141,1685,69,144
+rotate:90
+images/tongue-2
+bounds:575,1674,80,182
+rotate:90
+images/vg
+bounds:2,471,490,340
+offsets:34,127,580,606
+
+Beelzebub_ske_3.png
+size:2023,1991
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/bowl - Copy
+bounds:2,479,1772,1510
+images/bowl
+bounds:2,479,1772,1510
+images/bowl c 3
+bounds:2,50,427,841
+offsets:83,166,1256,1081
+rotate:90
+images/buzzeleBulbBlur2
+bounds:1455,2,475,566
+rotate:90
+images/headlBlurFront
+bounds:845,35,608,442
+
+Beelzebub_ske_4.png
+size:1949,1638
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/bowl c 2
+bounds:584,11,599,633
+offsets:328,389,1256,1081
+rotate:90
+images/buzzeleBulbHealBlur
+bounds:1219,2,608,728
+rotate:90
+images/goo
+bounds:1171,1194,442,545
+offsets:7,10,454,555
+rotate:90
+images/right-upper-arm
+bounds:602,1218,418,567
+rotate:90
+images/tenctiles1
+bounds:2,1263,373,598
+offsets:37,11,428,730
+rotate:90
+images/v1
+bounds:2,655,580,606
+images/v2
+bounds:584,612,580,606
+rotate:90
+images/v3
+bounds:1192,612,580,606
+rotate:90
+images/v4
+bounds:2,47,580,606
+
+Beelzebub_ske_5.png
+size:1505,1426
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/money
+bounds:2,2,1501,1422
+
+Beelzebub_ske_6.png
+size:1217,1351
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/body
+bounds:2,2,1213,1347
+
+Beelzebub_ske_7.png
+size:2045,1811
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/bowl c 1
+bounds:1062,2,887,941
+offsets:301,81,1256,1081
+rotate:90
+images/bowl glow 2
+bounds:1062,891,981,918
+offsets:60,31,1114,949
+images/newBody
+bounds:2,644,1058,1165
+offsets:75,104,1213,1347
+
+Beelzebub_ske_8.png
+size:1029,1161
+filter:Linear,Linear
+pma:true
+scale:0.4
+images/body - Copy
+bounds:2,2,1025,1157
+offsets:43,190,1213,1347
