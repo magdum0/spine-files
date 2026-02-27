@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spine Animation Full-View Preview</title>
-    
+
     <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
     <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
 
     <style>
-        body, html {
+        body,
+        html {
             margin: 0;
             padding: 0;
             width: 100%;
@@ -29,11 +31,12 @@
 
         .player-container {
             width: 90%;
-            height: 80vh; /* This defines the viewable area */
+            height: 80vh;
+            /* This defines the viewable area */
             position: relative;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
         }
 
         /* Essential: This makes the Spine Player canvas fill the container */
@@ -42,8 +45,13 @@
             height: 100%;
         }
 
-        .player-container:nth-child(odd) { background-color: #FAF3E1; }
-        .player-container:nth-child(even) { background-color: #222222; }
+        .player-container:nth-child(odd) {
+            background-color: #FAF3E1;
+        }
+
+        .player-container:nth-child(even) {
+            background-color: #222222;
+        }
 
         .player-label {
             position: absolute;
@@ -62,25 +70,21 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="player-wrapper" id="player-list">
-        </div>
+    </div>
 
     <script>
-        const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/my%20character%20export/";
-        
+        const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/kingGoblin/";
+
         const animations = [
-            { name: "Walk" },
-            { name: "Idle" },
-            { name: "Jump" },
-            { name: "Backflip" },
-            { name: "HandWalk" },
-            { name: "Moonwalk" },
-            { name: "PunchRightHook" },
-            { name: "Rage" },
-            { name: "Rapping" },
-            { name: "walk_drunk" }
+            { name: "new_attack_a" },
+            { name: "new_attack_c" },
+            { name: "Attack A" },
+            { name: "summoning" },
+            { name: "new_attack_scream" }
         ];
 
         const listContainer = document.getElementById('player-list');
@@ -96,7 +100,7 @@
 
             const playerDiv = document.createElement('div');
             playerDiv.className = 'spine-target';
-            const uniqueId = "player-" + config.name.toLowerCase().replace(/_/g, "");
+            const uniqueId = "player-" + config.name.toLowerCase().replace(/[\s_]/g, "");
             playerDiv.id = uniqueId;
 
             container.appendChild(label);
@@ -105,16 +109,16 @@
 
             // 2. Initialize the Spine Player
             new spine.SpinePlayer(uniqueId, {
-                jsonUrl: githubRawBaseUrl + "skeleton.json",
-                atlasUrl: githubRawBaseUrl + "skeleton.atlas",
+                jsonUrl: githubRawBaseUrl + "GoblinKing_ske.json",
+                atlasUrl: githubRawBaseUrl + "GoblinKing_ske.atlas",
                 animation: config.name,
-                
+
                 // --- ZOOM & FIT CONFIGURATION ---
                 showControls: false,
                 alpha: true,
                 backgroundColor: "#00000000",
                 fullScreenButton: false,
-                
+
                 // The 'viewport' logic calculates the character's size 
                 // and zooms the camera to fit the div automatically.
                 viewport: {
@@ -124,18 +128,15 @@
                     padBottom: "2%",
                     debugRender: false
                 },
-                
+
                 // This ensures the character scales up to fill the 80vh height
-                preserveAspectRatio: true, 
+                preserveAspectRatio: true,
 
                 success: function (player) {
                     const state = player.animationState;
-                    
+
                     // Layer 0: The primary movement
                     state.setAnimation(0, config.name, true);
-                    
-                    // Layer 1: The flame effect
-                    state.setAnimation(1, "flame", true);
 
                     // Note: If the character still looks slightly small, 
                     // the player automatically fits the entire "setup pose" 
@@ -149,4 +150,5 @@
         });
     </script>
 </body>
+
 </html>
