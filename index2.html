@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spine Animation Full-View Preview</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
+    <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #111;
+            font-family: Arial, sans-serif;
+        }
+
+        .player-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .player-container {
+            width: 90%;
+            height: 80vh; /* This defines the viewable area */
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* Essential: This makes the Spine Player canvas fill the container */
+        .spine-target {
+            width: 100%;
+            height: 100%;
+        }
+
+        .player-container:nth-child(odd) { background-color: #FAF3E1; }
+        .player-container:nth-child(even) { background-color: #222222; }
+
+        .player-label {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            z-index: 10;
+            pointer-events: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-wrapper" id="player-list">
+        </div>
+
+    <script>
+        const githubRawBaseUrl = "https://raw.githubusercontent.com/magdum0/spine-files/main/my%20character%20export/";
+        
+        const animations = [
+            { name: "Walk" },
+            { name: "Idle" },
+            { name: "Jump" },
+            { name: "Backflip" },
+            { name: "HandWalk" },
+            { name: "Moonwalk" },
+            { name: "PunchRightHook" },
+            { name: "Rage" },
+            { name: "Rapping" },
+            { name: "walk_drunk" }
+        ];
+
+        const listContainer = document.getElementById('player-list');
+
+        animations.forEach(config => {
+            // 1. Create the HTML Structure
+            const container = document.createElement('div');
+            container.className = 'player-container';
+
+            const label = document.createElement('div');
+            label.className = 'player-label';
+            label.innerText = config.name;
+
+            const playerDiv = document.createElement('div');
+            playerDiv.className = 'spine-target';
+            const uniqueId = "player-" + config.name.toLowerCase().replace(/_/g, "");
+            playerDiv.id = uniqueId;
+
+            container.appendChild(label);
+            container.appendChild(playerDiv);
+            listContainer.appendChild(container);
+
+            // 2. Initialize the Spine Player
+            new spine.SpinePlayer(uniqueId, {
+                jsonUrl: githubRawBaseUrl + "skeleton.json",
+                atlasUrl: githubRawBaseUrl + "skeleton.atlas",
+                animation: config.name,
+                
+                // --- ZOOM & FIT CONFIGURATION ---
+                showControls: false,
+                alpha: true,
+                backgroundColor: "#00000000",
+                fullScreenButton: false,
+                
+                // The 'viewport' logic calculates the character's size 
+                // and zooms the camera to fit the div automatically.
+                viewport: {
+                    padLeft: "2%",   // Small padding so they don't touch the edge
+                    padRight: "2%",
+                    padTop: "2%",
+                    padBottom: "2%",
+                    debugRender: false
+                },
+                
+                // This ensures the character scales up to fill the 80vh height
+                preserveAspectRatio: true, 
+
+                success: function (player) {
+                    const state = player.animationState;
+                    
+                    // Layer 0: The primary movement
+                    state.setAnimation(0, config.name, true);
+                    
+                    // Layer 1: The flame effect
+                    state.setAnimation(1, "flame", true);
+
+                    // Note: If the character still looks slightly small, 
+                    // the player automatically fits the entire "setup pose" 
+                    // bounding box. You can manually tweak player.camera.zoom 
+                    // here if needed, but 'viewport' usually handles it.
+                },
+                error: function (player, reason) {
+                    console.error("Failed to load animation " + config.name + ":", reason);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
