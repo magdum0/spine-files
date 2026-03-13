@@ -1,0 +1,86 @@
+skeleton.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+Copy of Group 107 Merged
+bounds:441,353,332,1249
+Copy of Group 94 Merged
+bounds:3547,861,536,784
+Group 100 Merged
+bounds:2,2,437,1600
+offsets:0,35,437,1635
+Group 107 Merged
+bounds:1989,2685,305,1255
+Group 110 Merged
+bounds:1278,2652,709,1288
+Group 65 Merged
+bounds:3547,176,457,683
+Group 76 Merged
+bounds:2,1604,1274,2336
+Group 89 Merged
+bounds:775,20,477,789
+Group 90 Merged
+bounds:2296,2496,782,692
+Group 92 Merged
+bounds:2030,1952,740,542
+Group 94 Merged
+bounds:775,811,514,791
+fisty
+bounds:3547,1647,477,789
+flame/back/flame.0001
+bounds:2296,3190,750,750
+flame/back/flame.0002
+bounds:3048,3190,750,750
+flame/back/flame.0003
+bounds:1278,1900,750,750
+flame/back/flame.0004
+bounds:3080,2438,750,750
+flame/back/flame.0005
+bounds:1291,1148,750,750
+flame/back/flame.0006
+bounds:1291,396,750,750
+flame/back/flame.0007
+bounds:2043,1200,750,750
+flame/back/flame.0008
+bounds:2043,448,750,750
+flame/back/flame.0009
+bounds:2795,1686,750,750
+flame/back/flame.0010
+bounds:2795,934,750,750
+flame/back/flame.0011
+bounds:2795,182,750,750
+
+skeleton_2.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+Group 102 Merged
+bounds:2258,2273,663,735
+fist2
+bounds:3010,3025,663,735
+flame/back/flame.0012
+bounds:2,3010,750,750
+flame/front/flame.0001
+bounds:2,2258,750,750
+flame/front/flame.0002
+bounds:754,3010,750,750
+flame/front/flame.0003
+bounds:2,1506,750,750
+flame/front/flame.0004
+bounds:754,2258,750,750
+flame/front/flame.0005
+bounds:1506,3010,750,750
+flame/front/flame.0006
+bounds:2,754,750,750
+flame/front/flame.0007
+bounds:754,1506,750,750
+flame/front/flame.0008
+bounds:1506,2258,750,750
+flame/front/flame.0009
+bounds:2258,3010,750,750
+flame/front/flame.0010
+bounds:2,2,750,750
+flame/front/flame.0011
+bounds:754,754,750,750
+flame/front/flame.0012
+bounds:1506,1506,750,750
