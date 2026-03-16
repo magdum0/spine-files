@@ -1,4 +1,4 @@
-skeleton.webp
+queen.webp
 size:2035,673
 filter:Linear,Linear
 pma:true
@@ -101,7 +101,7 @@ tentacles Mouth
 bounds:1868,328,106,68
 offsets:12,5,130,82
 
-skeleton_2.webp
+queen_2.webp
 size:439,1060
 filter:Linear,Linear
 pma:true
@@ -133,7 +133,7 @@ effects/summoningcircle2
 bounds:2,2,328,161
 offsets:2,169,332,332
 
-skeleton_3.webp
+queen_3.webp
 size:282,386
 filter:Linear,Linear
 pma:true
@@ -166,7 +166,7 @@ effects/gHit/gs.8
 bounds:2,236,219,38
 offsets:17,9,250,60
 
-skeleton_4.webp
+queen_4.webp
 size:385,566
 filter:Linear,Linear
 pma:true
@@ -193,7 +193,7 @@ effects/hit splash/frame0006
 bounds:2,343,295,68
 offsets:60,42,451,147
 
-skeleton_5.webp
+queen_5.webp
 size:941,412
 filter:Linear,Linear
 pma:true
@@ -224,7 +224,7 @@ bounds:625,2,295,124
 offsets:86,46,505,271
 rotate:90
 
-skeleton_6.webp
+queen_6.webp
 size:380,568
 filter:Linear,Linear
 pma:true
@@ -248,7 +248,7 @@ effects/mud/frame0005
 bounds:2,457,276,36
 offsets:31,28,381,203
 
-skeleton_7.webp
+queen_7.webp
 size:448,105
 filter:Linear,Linear
 pma:true
