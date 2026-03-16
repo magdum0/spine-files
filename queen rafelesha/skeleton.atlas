@@ -1,7 +1,6 @@
 skeleton.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 Bush plant
 bounds:2,2,60,87
@@ -15,7 +14,6 @@ bounds:714,728,328,110
 skeleton_2.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 Tentacle J
 bounds:2,2,61,105
@@ -29,7 +27,6 @@ bounds:714,728,184,198
 skeleton_3.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 a
 bounds:2,2,43,43
@@ -45,7 +42,6 @@ offsets:8,11,387,163
 skeleton_4.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 blur
 bounds:2,2,178,100
@@ -60,7 +56,6 @@ offsets:2,0,32,81
 skeleton_5.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 flower main
 bounds:714,2,309,724
@@ -76,7 +71,6 @@ bounds:714,728,102,103
 skeleton_6.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 leaf B
 bounds:2,2,54,91
@@ -90,7 +84,6 @@ bounds:714,728,262,11
 skeleton_7.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 small flower C
 bounds:2,2,53,194
@@ -104,7 +97,6 @@ bounds:714,728,478,105
 skeleton_8.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 tentacle B
 bounds:2,2,467,220
@@ -118,7 +110,6 @@ bounds:714,728,212,142
 skeleton_9.webp
 size:1426,1454
 filter:Linear,Linear
-pma:true
 scale:0.4
 tentacle F
 bounds:2,2,134,254
@@ -132,7 +123,6 @@ bounds:714,728,108,80
 skeleton_10.webp
 size:1426,728
 filter:Linear,Linear
-pma:true
 scale:0.4
 tentacles FRont
 bounds:2,2,458,308
@@ -143,7 +133,6 @@ offsets:12,5,130,82
 skeleton_11.webp
 size:1842,342
 filter:Linear,Linear
-pma:true
 scale:0.4
 effects/bush
 bounds:2,2,69,74
@@ -168,7 +157,6 @@ offsets:2,169,332,332
 skeleton_12.webp
 size:1834,55
 filter:Linear,Linear
-pma:true
 scale:0.4
 effects/gHit/gs.1
 bounds:2,2,145,35
@@ -198,7 +186,6 @@ offsets:17,9,250,60
 skeleton_13.webp
 size:1917,250
 filter:Linear,Linear
-pma:true
 scale:0.4
 effects/hit splash/frame0000
 bounds:2,2,343,67
@@ -225,7 +212,6 @@ offsets:60,42,451,147
 skeleton_14.webp
 size:1870,426
 filter:Linear,Linear
-pma:true
 scale:0.4
 effects/hitEffect/frame0000
 bounds:2,2,140,63
@@ -252,7 +238,6 @@ offsets:86,46,505,271
 skeleton_15.webp
 size:1892,185
 filter:Linear,Linear
-pma:true
 scale:0.4
 effects/mud/frame0000
 bounds:2,2,289,125
@@ -276,7 +261,6 @@ offsets:31,28,381,203
 skeleton_16.webp
 size:1460,68
 filter:Linear,Linear
-pma:true
 scale:0.4
 effects/vines/r1
 bounds:2,2,89,64
