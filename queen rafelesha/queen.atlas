@@ -1,452 +1,273 @@
 queen.png
-size:1246,1271
+size:1981,2027
 filter:Linear,Linear
 scale:0.7
 Bush plant
-bounds:2,2,106,152
+bounds:1637,1919,106,152
+rotate:90
+TEntacle N
+bounds:1595,1002,384,313
+TEntacle O
+bounds:833,1789,528,139
+Tentacle G
+bounds:1223,1551,575,193
+Tentacle J
+bounds:1791,1918,107,183
+rotate:90
+Tentacle K
+bounds:1026,1931,94,227
+rotate:90
+Tentacle M
+bounds:979,1586,242,201
+Tentacle P
+bounds:2,851,321,347
+rotate:90
+a
+bounds:607,1949,76,76
+offsets:1,1,78,78
+arm left
+bounds:1555,1774,143,175
+rotate:90
+arm right
+bounds:353,1842,155,128
+attackBush
+bounds:1287,1317,642,232
+offsets:15,19,678,286
+blur
+bounds:482,1619,312,175
+body
+bounds:2,1712,172,295
+rotate:90
+flower front
+bounds:463,1972,53,142
+offsets:3,0,56,142
+rotate:90
+flower main 2
+bounds:957,1045,636,270
+offsets:14,8,686,301
+head Copy
+bounds:299,1662,178,181
+rotate:90
+head damage
+bounds:796,1609,178,181
+rotate:90
+leaf B
+bounds:1255,1930,95,160
+rotate:90
+lilybase
+bounds:806,2,778,596
+shadow
+bounds:2,2006,459,19
+small flower C
+bounds:685,1932,93,339
+rotate:90
+small flower a
+bounds:1417,1928,218,97
+small flower b
+bounds:1732,1746,179,170
+tentacle A
+bounds:448,1366,837,183
+tentacle B
+bounds:351,657,818,386
+tentacle C
+bounds:1171,600,622,400
+tentacle D
+bounds:375,1105,580,259
+tentacle E
+bounds:2,1174,371,249
+tentacle F
+bounds:2,1425,235,444
+rotate:90
+tentacle H
+bounds:2,1886,162,118
+tentacle I
+bounds:510,1796,134,321
+rotate:90
+tentacle X
+bounds:1363,1785,190,141
+tentacles FRont
+bounds:2,115,802,540
+tentacles Mouth
+bounds:166,1886,185,118
+offsets:21,10,227,144
 
 queen_2.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-TEntacle N
-bounds:2,2,384,313
-
-queen_3.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-TEntacle O
-bounds:2,2,528,139
-
-queen_4.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-Tentacle G
-bounds:2,2,575,193
-
-queen_5.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-Tentacle J
-bounds:2,2,107,183
-
-queen_6.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-Tentacle K
-bounds:2,2,94,227
-
-queen_7.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-Tentacle M
-bounds:2,2,242,201
-
-queen_8.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-Tentacle P
-bounds:2,2,321,347
-
-queen_9.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-a
-bounds:2,2,76,76
-offsets:1,1,78,78
-
-queen_10.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-arm left
-bounds:2,2,143,175
-
-queen_11.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-arm right
-bounds:2,2,155,128
-
-queen_12.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-attackBush
-bounds:2,2,642,232
-offsets:15,19,678,286
-
-queen_13.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-blur
-bounds:2,2,312,175
-
-queen_14.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-body
-bounds:2,2,172,295
-
-queen_15.png
-size:1246,1271
+size:1878,1729
 filter:Linear,Linear
 scale:0.7
 bush2
-bounds:2,2,1242,591
-
-queen_16.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
+bounds:2,1136,1242,591
 flower base
-bounds:2,2,814,630
-
-queen_17.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-flower front
-bounds:2,2,53,142
-offsets:3,0,56,142
-
-queen_18.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-flower main 2
-bounds:2,2,636,270
-offsets:14,8,686,301
-
-queen_19.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
+bounds:1246,913,814,630
+rotate:90
 flower main
 bounds:2,2,539,1267
 offsets:40,23,590,1301
-
-queen_20.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-head Copy
-bounds:2,2,178,181
-
-queen_21.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-head damage
-bounds:2,2,178,181
-
-queen_22.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-leaf B
-bounds:2,2,95,160
-
-queen_23.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-lilybase
-bounds:2,2,778,596
-
-queen_24.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
+rotate:90
 main bush
-bounds:2,2,1242,591
+bounds:2,543,1242,591
 
-queen_25.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-shadow
-bounds:2,2,459,19
-
-queen_26.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-small flower C
-bounds:2,2,93,339
-
-queen_27.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-small flower a
-bounds:2,2,218,97
-
-queen_28.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-small flower b
-bounds:2,2,179,170
-
-queen_29.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle A
-bounds:2,2,837,183
-
-queen_30.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle B
-bounds:2,2,818,386
-
-queen_31.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle C
-bounds:2,2,622,400
-
-queen_32.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle D
-bounds:2,2,580,259
-
-queen_33.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle E
-bounds:2,2,371,249
-
-queen_34.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle F
-bounds:2,2,235,444
-
-queen_35.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle H
-bounds:2,2,162,118
-
-queen_36.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle I
-bounds:2,2,134,321
-
-queen_37.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacle X
-bounds:2,2,190,141
-
-queen_38.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacles FRont
-bounds:2,2,802,540
-
-queen_39.png
-size:1246,1271
-filter:Linear,Linear
-scale:0.7
-tentacles Mouth
-bounds:2,2,185,118
-offsets:21,10,227,144
-
-queen_40.png
-size:1121,1528
+queen_3.png
+size:1830,765
 filter:Linear,Linear
 scale:0.7
 effects/blurUlt
 bounds:2,2,1117,761
 offsets:140,95,1316,1019
 effects/bush
-bounds:2,765,122,130
+bounds:1698,496,122,130
 offsets:15,6,150,144
-
-queen_41.png
-size:1121,1528
-filter:Linear,Linear
-scale:0.7
+rotate:90
 effects/crack
-bounds:2,2,641,143
+bounds:1121,620,641,143
 effects/fume
-bounds:2,765,134,108
-
-queen_42.png
-size:1121,1528
-filter:Linear,Linear
-scale:0.7
+bounds:1698,133,134,108
+rotate:90
 effects/nector
-bounds:2,2,63,102
+bounds:1764,661,63,102
 offsets:1,2,64,105
 effects/polin
-bounds:2,765,130,103
+bounds:1698,391,130,103
 offsets:2,2,134,108
-
-queen_43.png
-size:1121,1528
-filter:Linear,Linear
-scale:0.7
 effects/rock
-bounds:2,2,120,123
+bounds:1698,269,120,123
 offsets:15,11,150,144
+rotate:90
 effects/summoningcircle
-bounds:2,765,572,292
+bounds:1121,46,572,292
 offsets:4,4,580,580
-
-queen_44.png
-size:1121,765
-filter:Linear,Linear
-scale:0.7
+rotate:90
 effects/summoningcircle2
-bounds:2,2,572,281
+bounds:1415,46,572,281
 offsets:4,295,580,580
+rotate:90
 
-queen_45.png
-size:2002,182
+queen_4.png
+size:1506,170
 filter:Linear,Linear
 scale:0.7
 effects/gHit/gs.1
-bounds:2,2,254,60
+bounds:387,19,254,60
 offsets:168,12,438,105
 effects/gHit/gs.2
-bounds:402,2,359,87
+bounds:382,81,359,87
 offsets:53,0,438,105
 effects/gHit/gs.3
-bounds:802,2,378,88
+bounds:2,80,378,88
 offsets:47,7,438,105
 effects/gHit/gs.4
-bounds:1202,2,369,83
+bounds:1106,2,369,83
 offsets:58,6,438,105
 effects/gHit/gs.5
-bounds:1602,2,361,85
+bounds:743,83,361,85
 offsets:68,7,438,105
 effects/gHit/gs.6
-bounds:2,92,358,71
+bounds:743,10,358,71
 offsets:70,9,438,105
 effects/gHit/gs.7
-bounds:402,92,398,81
+bounds:1106,87,398,81
 offsets:33,13,438,105
 effects/gHit/gs.8
-bounds:802,92,383,67
+bounds:2,11,383,67
 offsets:30,15,438,105
 
-queen_46.png
-size:2012,434
+queen_5.png
+size:1953,337
 filter:Linear,Linear
 scale:0.7
 effects/hit splash/frame0000
 bounds:2,2,601,117
 offsets:129,20,790,258
 effects/hit splash/frame0001
-bounds:672,2,619,143
+bounds:672,10,619,143
 offsets:93,19,790,258
 effects/hit splash/frame0002
-bounds:1342,2,625,194
+bounds:1326,141,625,194
 offsets:64,14,790,258
 effects/hit splash/frame0003
-bounds:2,218,668,214
+bounds:2,121,668,214
 offsets:41,16,790,258
 effects/hit splash/frame0004
-bounds:672,218,652,180
+bounds:672,155,652,180
 offsets:51,16,790,258
 effects/hit splash/frame0005
-bounds:1342,218,515,118
+bounds:1293,21,515,118
 offsets:106,75,790,258
 effects/hit splash/frame0006
-bounds:1342,218,515,118
+bounds:1293,21,515,118
 offsets:106,75,790,258
 
-queen_47.png
-size:1634,1482
+queen_6.png
+size:1967,590
 filter:Linear,Linear
 scale:0.7
 effects/hitEffect/frame0000
-bounds:2,2,246,111
+bounds:1854,342,246,111
 offsets:315,98,884,475
+rotate:90
 effects/hitEffect/frame0001
-bounds:818,2,346,178
+bounds:1024,40,346,178
 offsets:231,94,884,475
 effects/hitEffect/frame0002
-bounds:2,372,814,343
+bounds:2,245,814,343
 offsets:17,70,884,475
 effects/hitEffect/frame0003
-bounds:818,372,763,368
+bounds:818,220,763,368
 offsets:8,61,884,475
 effects/hitEffect/frame0005
-bounds:2,742,532,269
+bounds:1583,56,532,269
 offsets:166,44,884,475
+rotate:90
 effects/hitEffect/frame0006
-bounds:818,742,503,216
+bounds:519,2,503,216
 offsets:169,82,884,475
 effects/hitEffect/frame0007
-bounds:2,1112,515,217
+bounds:2,26,515,217
 offsets:151,81,884,475
 
-queen_48.png
-size:1982,640
+queen_7.png
+size:609,1038
 filter:Linear,Linear
 scale:0.7
 effects/mud/frame0000
-bounds:2,2,506,216
+bounds:321,530,506,216
 offsets:51,45,667,355
+rotate:90
 effects/mud/frame0001
-bounds:662,2,658,317
+bounds:2,378,658,317
 offsets:0,38,667,355
+rotate:90
 effects/mud/frame0002
-bounds:1322,2,605,249
+bounds:2,127,605,249
 offsets:32,48,667,355
 effects/mud/frame0003
-bounds:2,321,586,123
+bounds:2,2,586,123
 offsets:30,46,667,355
 effects/mud/frame0004
-bounds:662,321,482,63
+bounds:539,554,482,63
 offsets:55,49,667,355
+rotate:90
 effects/mud/frame0005
-bounds:662,321,482,63
+bounds:539,554,482,63
 offsets:55,49,667,355
+rotate:90
 
-queen_49.png
-size:1698,232
+queen_8.png
+size:1259,117
 filter:Linear,Linear
 scale:0.7
 effects/vines/r1
-bounds:2,2,154,113
+bounds:1018,2,154,113
 offsets:17,10,184,137
 effects/vines/r2
-bounds:426,2,72,48
+bounds:1174,2,72,48
 offsets:13,14,95,72
 effects/vines/r3
-bounds:850,2,83,63
+bounds:1174,52,83,63
 offsets:11,14,105,86
 effects/vines/v1
-bounds:1274,2,239,110
+bounds:777,5,239,110
 effects/vines/v2
-bounds:2,117,422,96
+bounds:2,19,422,96
 effects/vines/v3
-bounds:426,117,349,95
+bounds:426,20,349,95
