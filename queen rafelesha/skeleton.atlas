@@ -1,0 +1,295 @@
+skeleton.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+Bush plant
+bounds:2,2,60,87
+TEntacle N
+bounds:714,2,219,179
+TEntacle O
+bounds:2,728,302,80
+Tentacle G
+bounds:714,728,328,110
+
+skeleton_2.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+Tentacle J
+bounds:2,2,61,105
+Tentacle K
+bounds:714,2,54,130
+Tentacle M
+bounds:2,728,138,115
+Tentacle P
+bounds:714,728,184,198
+
+skeleton_3.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+a
+bounds:2,2,43,43
+offsets:1,1,45,45
+arm left
+bounds:714,2,82,100
+arm right
+bounds:2,728,88,73
+attackBush
+bounds:714,728,368,133
+offsets:8,11,387,163
+
+skeleton_4.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+blur
+bounds:2,2,178,100
+body
+bounds:714,2,98,169
+flower base
+bounds:2,728,465,360
+flower front
+bounds:714,728,30,81
+offsets:2,0,32,81
+
+skeleton_5.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+flower main
+bounds:714,2,309,724
+offsets:22,13,337,743
+flower main 2
+bounds:2,2,364,155
+offsets:8,4,392,172
+head Copy
+bounds:2,728,102,103
+head damage
+bounds:714,728,102,103
+
+skeleton_6.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+leaf B
+bounds:2,2,54,91
+lilybase
+bounds:714,2,444,340
+main bush
+bounds:2,728,710,338
+shadow
+bounds:714,728,262,11
+
+skeleton_7.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+small flower C
+bounds:2,2,53,194
+small flower a
+bounds:714,2,125,55
+small flower b
+bounds:2,728,102,97
+tentacle A
+bounds:714,728,478,105
+
+skeleton_8.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+tentacle B
+bounds:2,2,467,220
+tentacle C
+bounds:714,2,355,228
+tentacle D
+bounds:2,728,331,148
+tentacle E
+bounds:714,728,212,142
+
+skeleton_9.webp
+size:1426,1454
+filter:Linear,Linear
+pma:true
+scale:0.4
+tentacle F
+bounds:2,2,134,254
+tentacle H
+bounds:714,2,92,67
+tentacle I
+bounds:2,728,77,183
+tentacle X
+bounds:714,728,108,80
+
+skeleton_10.webp
+size:1426,728
+filter:Linear,Linear
+pma:true
+scale:0.4
+tentacles FRont
+bounds:2,2,458,308
+tentacles Mouth
+bounds:714,2,106,68
+offsets:12,5,130,82
+
+skeleton_11.webp
+size:1842,342
+filter:Linear,Linear
+pma:true
+scale:0.4
+effects/bush
+bounds:2,2,69,74
+offsets:8,3,86,82
+effects/crack
+bounds:370,2,366,82
+effects/fume
+bounds:738,2,76,62
+effects/polin
+bounds:1106,2,74,59
+offsets:1,1,76,62
+effects/rock
+bounds:1474,2,69,70
+offsets:8,6,86,82
+effects/summoningcircle
+bounds:2,172,328,168
+offsets:2,2,332,332
+effects/summoningcircle2
+bounds:370,172,328,161
+offsets:2,169,332,332
+
+skeleton_12.webp
+size:1834,55
+filter:Linear,Linear
+pma:true
+scale:0.4
+effects/gHit/gs.1
+bounds:2,2,145,35
+offsets:96,6,250,60
+effects/gHit/gs.2
+bounds:231,2,205,50
+offsets:30,0,250,60
+effects/gHit/gs.3
+bounds:460,2,215,51
+offsets:27,4,250,60
+effects/gHit/gs.4
+bounds:689,2,211,47
+offsets:33,4,250,60
+effects/gHit/gs.5
+bounds:918,2,206,49
+offsets:39,4,250,60
+effects/gHit/gs.6
+bounds:1147,2,204,41
+offsets:40,5,250,60
+effects/gHit/gs.7
+bounds:1376,2,227,47
+offsets:19,7,250,60
+effects/gHit/gs.8
+bounds:1605,2,219,38
+offsets:17,9,250,60
+
+skeleton_13.webp
+size:1917,250
+filter:Linear,Linear
+pma:true
+scale:0.4
+effects/hit splash/frame0000
+bounds:2,2,343,67
+offsets:74,11,451,147
+effects/hit splash/frame0001
+bounds:385,2,352,82
+offsets:54,11,451,147
+effects/hit splash/frame0002
+bounds:768,2,357,110
+offsets:36,8,451,147
+effects/hit splash/frame0003
+bounds:1151,2,381,122
+offsets:24,9,451,147
+effects/hit splash/frame0004
+bounds:1534,2,372,103
+offsets:29,9,451,147
+effects/hit splash/frame0005
+bounds:2,126,295,68
+offsets:60,42,451,147
+effects/hit splash/frame0006
+bounds:2,126,295,68
+offsets:60,42,451,147
+
+skeleton_14.webp
+size:1870,426
+filter:Linear,Linear
+pma:true
+scale:0.4
+effects/hitEffect/frame0000
+bounds:2,2,140,63
+offsets:180,56,505,271
+effects/hitEffect/frame0001
+bounds:469,2,198,102
+offsets:132,53,505,271
+effects/hitEffect/frame0002
+bounds:936,2,465,196
+offsets:10,40,505,271
+effects/hitEffect/frame0003
+bounds:1403,2,437,210
+offsets:4,35,505,271
+effects/hitEffect/frame0005
+bounds:2,214,304,154
+offsets:95,25,505,271
+effects/hitEffect/frame0006
+bounds:469,214,288,123
+offsets:96,47,505,271
+effects/hitEffect/frame0007
+bounds:936,214,295,124
+offsets:86,46,505,271
+
+skeleton_15.webp
+size:1892,185
+filter:Linear,Linear
+pma:true
+scale:0.4
+effects/mud/frame0000
+bounds:2,2,289,125
+offsets:29,25,381,203
+effects/mud/frame0001
+bounds:380,2,376,181
+offsets:0,22,381,203
+effects/mud/frame0002
+bounds:758,2,346,143
+offsets:18,27,381,203
+effects/mud/frame0003
+bounds:1136,2,335,71
+offsets:17,26,381,203
+effects/mud/frame0004
+bounds:1514,2,276,36
+offsets:31,28,381,203
+effects/mud/frame0005
+bounds:1514,2,276,36
+offsets:31,28,381,203
+
+skeleton_16.webp
+size:1460,68
+filter:Linear,Linear
+pma:true
+scale:0.4
+effects/vines/r1
+bounds:2,2,89,64
+offsets:9,6,105,78
+effects/vines/r2
+bounds:245,2,41,28
+offsets:7,8,54,41
+effects/vines/r3
+bounds:488,2,48,37
+offsets:6,7,60,49
+effects/vines/v1
+bounds:731,2,136,63
+effects/vines/v2
+bounds:974,2,241,55
+effects/vines/v3
+bounds:1217,2,199,54
